@@ -50,11 +50,30 @@
 //     }
 // }
 // console.log(divisible)
-let reul = " "
-for(let i = 0;i<5;i++){
-    for(let j =0;j<5;j++){
-        reul+="*"
-    }
+
+// for(let i = 0;i<5;i++){
+//     let reul = " ";
+//     for(let j =0;j<5;j++){
+//         reul+="*  "
+//     }
+//     console.log(reul);
    
+// }
+
+
+// for(let i=1;i<=5;i++){
+//     let result = " "
+//     for(let j = 1;j<=i;j++){
+//         result+="* "
+//     }
+//     console.log(result)
+// }
+console.log("hello");
+
+for(let i = 5;i>=0;i--){
+    let reuslt = "* "
+   for(let i = 0 ;i<5;i++){
+       reuslt +=" "
+   }
+   console.log(reuslt)
 }
-console.log(reul)
