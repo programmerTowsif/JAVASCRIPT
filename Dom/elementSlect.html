@@ -1,0 +1,32 @@
+
+
+ <!-- <p id="myText" class="classText">Hello dom</p> -->
+ <div class="box">box 1</div>
+ <div class="box">box 2</div>
+ <p>First paragraph</p>
+<p>Second paragraph</p>
+ <script>
+
+// querySelector() – CSS স্টাইল সিলেক্টর দিয়ে
+const boxes = document.querySelectorAll(".box")
+console.log(boxes[0])
+
+    // getElementsByTagName() – tag দিয়ে ধরার জন্য
+
+    /* const paragraphs = document.getElementsByTagName("p")
+    console.log(paragraphs[1].innerText) */
+    // getElementsByClassName() – class দিয়ে ধরার জন্য
+   /* const boxes = document.getElementsByClassName('box')
+
+     for(let key of boxes){
+        console.log(key.innerText)
+     }*/
+
+    //  <!-- getElementById() = id  to catch with id -->
+   /* const id = document.getElementById('myText')
+    console.log(id.id)
+    console.log(id.innerHTML)
+    console.log(id.innerText)
+    console.log(id.className) */
+  
+ </script>
